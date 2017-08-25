@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    width: 580px;
+    margin: 140px auto 0;
+    text-align: center;
+}
+
+h1#logo {
+    width: 269px;
+    height: 95px;
+    background: url("googleLogo.png") top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 566px;
+    height: 30px;
+    padding: 7px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    box-shadow: -1px 3px 4px gray;
+    
+    
+}
+
+input[type="text"]:hover {
+    border-color: #aaa;
+}
+
+input[type="submit"] {
+    background: #eee;
+    color: #333;
+    border: solid 0.5px #eee;
+    padding: 12px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border: solid 1px gray;
+}
+
+input[type="submit"]:active {
+    cursor: pointer;
+    border: solid 1px blue;
+}
+
+
+small {
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+}
+
+a:link, a:visited {
+    color: dodgerblue;
+}
+
+nav#header {
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li {
+    display: inline;
+    
+   
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav {
+    padding: 20px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul {
+    float: left;
+}
+
+footer nav ul.right-links {
+    float: right;
+    text-align: right;
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.button {
+    border: solid 1px royalblue;
+    background-color: royalblue;
+    border-radius: 5px;
+    
+}
+
+nav#header ul li a.button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav#header ul li a.button:active {
+    background-color: darkblue;
+    position: relative;
+    top: 1px;
+}
